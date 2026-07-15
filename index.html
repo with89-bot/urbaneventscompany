@@ -1,300 +1,246 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Urban Events Company | Presented by Urban Dance Studio</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Events Company | Premium Corporate Event Management</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<main class="deck">
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Urban Events Company home">
+                <img src="assets/urban-events-logo.png" alt="Urban Events Company logo" class="logo-image">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#contact" class="nav-btn">Get Proposal</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
-<section class="slide cover">
-  <img class="cover-bg" src="images/image_1.jpg" alt="Urban Events Company cover image">
-  <div class="topbar"><div class="brandmark"><img src="images/image_2.png">Presented by Urban Dance Studio</div><div class="page">01 / 15</div></div>
-  <img class="watermark" src="images/image_3.png">
-  <div class="content hero">
-    <div>
-      <img class="logo-large" src="images/image_4.png" alt="Urban Dance Studio Logo">
-      <h1>Urban Events <span class="neon">Company</span></h1>
-      <p class="sub">Professional Dance & Event Management</p>
-      <p class="lead">Creating performers, building confidence, and delivering memorable stage experiences for schools, colleges, corporates, weddings and sangeet events.</p>
-      <div class="pills">
-        <span class="pill hot">10+ Years Dance Training</span>
-        <span class="pill">8+ Years School Events</span>
-        <span class="pill">Complete Event Solutions</span>
-      </div>
-    </div>
-    <div class="hero-card">
-      <img src="images/image_5.jpg" alt="Stage work">
-      <div class="hero-caption">
-        <h3>School Event & Dance Management Proposal</h3>
-        <p class="small">A professional presentation by Urban Dance Studio.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Creating Extraordinary Events & <span class="text-gold">Unforgettable Experiences</span></h1>
+            <p>Professional Event Management, Choreography & Entertainment Solutions for Schools, Colleges, Corporate Events and Weddings.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-gold">Get Proposal</a>
+                <a href="#services" class="btn btn-outline">Our Services</a>
+                <a href="https://wa.me/917498325284" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_6.png">Urban Events Company</div><div class="page">02 / 15</div></div>
-  <img class="watermark" src="images/image_7.png">
-  <div class="content grid2">
-    <div>
-      <h2>About <span class="neon">Urban Events Company</span></h2>
-      <p class="lead">Urban Events Company is a professional dance and event management brand presented by Urban Dance Studio. We help institutions and families plan, train and execute high-quality performances with creative choreography, disciplined rehearsals and smooth coordination.</p>
-      <div class="note">We provide complete packages as well as individual services based on the client’s exact requirement.</div>
-    </div>
-    <img class="photo" src="images/image_8.jpg" alt="School workshop group">
-  </div>
-</section>
+    <!-- Trust Stats Section -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-card"><h3>10+</h3><p>Years Experience</p></div>
+            <div class="stat-card"><h3>1000+</h3><p>Students Trained</p></div>
+            <div class="stat-card"><h3>50+</h3><p>Events Managed</p></div>
+            <div class="stat-card"><h3>10+</h3><p>Institutions Served</p></div>
+        </div>
+    </section>
 
-<!-- <section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_9.png">Founder Profile</div><div class="page">03 / 15</div></div>
-  <img class="watermark" src="images/image_10.png">
-  <div class="content grid2">
-    <img class="photo tall" src="images/image_11.jpg" alt="Naresh Tayde with students">
-    <div>
-      <h2>Founder &<span class="neon"> Choreographer</span></h2>
-      <h3>Naresh Tayde</h3>
-      <p class="lead">Founder and Choreographer of Urban Dance Studio, with 10+ years of experience in dance, choreography and performance training.</p>
-      <div class="list">
-        <div><span class="check">✓</span> Active School Dance Teacher and professional choreographer.</div>
-        <div><span class="check">✓</span> Trained students for annual days, inter-school competitions, cultural festivals and large-scale stage shows.</div>
-        <div><span class="check">✓</span> Teaching approach focused on fundamentals, confidence, discipline and stage readiness.</div>
-      </div>
-    </div>
-  </div>
-</section> -->
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-text">
+                <span class="section-subtitle">Presented by Urban Dance Studio</span>
+                <h2>About Urban Events Company</h2>
+                <p>Urban Events Company is a professional event management and entertainment brand presented by Urban Dance Studio. We specialize in school annual days, cultural events, college festivals, corporate entertainment programs, wedding choreography and complete event execution.</p>
+                <p>Our mission is to create memorable experiences through professional planning, creative concepts and flawless execution.</p>
+            </div>
+            <div class="about-img-container">
+                <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=900&q=85" alt="Urban Events dance performance" class="responsive-img editable-img">
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_12.png">Experience</div><div class="page">04 / 15</div></div>
-  <div class="content">
-    <h2>Our <span class="neon">Experience</span></h2>
-    <p class="lead">We have worked across school annual days, cultural programs, stage shows, competitions and training workshops.</p>
-    <div class="stats">
-      <div class="stat"><b>10+</b><span>Years of dance training experience</span></div>
-      <div class="stat"><b>8+</b><span>Years working with school events</span></div>
-      <div class="stat"><b>8–10</b><span>Schools and institutions served</span></div>
-      <div class="stat"><b>1000+</b><span>Students trained for stage performances</span></div>
-    </div>
-    <div class="pills">
-      <span class="pill">Annual Day</span><span class="pill">Cultural Events</span><span class="pill">Competitions</span><span class="pill">Sangeet Events</span>
-    </div>
-  </div>
-</section>
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Premium solutions crafted for absolute corporate and luxury standards.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card"><i class="fa-solid fa-graduation-cap card-icon"></i><h3>Annual Day Management</h3><p>Complete conceptualization, themes, and execution for schools.</p></div>
+                <div class="service-card"><i class="fa-solid fa-running card-icon"></i><h3>Sports Day Management</h3><p>End-to-end sports event tracking, setups, and drills.</p></div>
+                <div class="service-card"><i class="fa-solid fa-building-columns card-icon"></i><h3>College Festivals</h3><p>High-energy tech production, artist handling, and sound.</p></div>
+                <div class="service-card"><i class="fa-solid fa-briefcase card-icon"></i><h3>Corporate Events</h3><p>Gala nights, award shows, and premium conferences.</p></div>
+                <div class="service-card"><i class="fa-solid fa-ring card-icon"></i><h3>Wedding & Sangeet Planning</h3><p>Grand entries, theme styling, and emotional storytelling.</p></div>
+                <div class="service-card"><i class="fa-solid fa-users card-icon"></i><h3>Dance Choreography</h3><p>Professional dance patterns and steps by elite trainers.</p></div>
+                <div class="service-card"><i class="fa-solid fa-camera card-icon"></i><h3>Photography & Videography</h3><p>4K Cinematic coverages, multi-axis drone setups.</p></div>
+                <div class="service-card"><i class="fa-solid fa-lightbulb card-icon"></i><h3>LED & Sound Solutions</h3><p>Concert grade sound systems, stage lighting and setups.</p></div>
+                <div class="service-card"><i class="fa-solid fa-bullhorn card-icon"></i><h3>Anchors & Artist Management</h3><p>Celebrity management, energetic professional anchors.</p></div>
+            </div>
+            <div class="additional-services">
+                <p><strong>More Services:</strong> Drone Coverage • LED Wall Setup • Stage Setup • Social Media Promotion • Video & Music Editing • Dance Workshops</p>
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_13.png">Work Portfolio</div><div class="page">05 / 15</div></div>
-  <div class="content">
-    <h2>Real Work <span class="neon">Highlights</span></h2>
-    <div class="gallery">
-      <img class="big" src="images/image_14.jpg" alt="Event group">
-      <img src="images/ggg.jpg" alt=" dance">
-      <img src="images/image_15.jpg" alt="School dance">
-      <img src="images/image_16.jpg" alt="Award stage">
-      <img src="images/image_17.jpg" alt="Certificates">
-      <img src="images/image_18.jpg" alt="Studio certificates">
-    </div>
-  </div>
-</section>
+    <!-- Event Categories -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Target Sectors</h2>
+            </div>
+            <div class="categories-grid">
+                <div class="category-box">Schools</div>
+                <div class="category-box">Colleges</div>
+                <div class="category-box">Corporate Events</div>
+                <div class="category-box">Weddings</div>
+                <div class="category-box">Cultural Festivals</div>
+                <div class="category-box">Entertainment Shows</div>
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_19.png">Institutions</div><div class="page">06 / 15</div></div>
-  <img class="watermark" src="images/image_20.png">
-  <div class="content grid2">
-    <div>
-      <h2>Schools & Institutions <span class="neon">We Worked With</span></h2>
-      <div class="list">
-        <div><span class="check">✓</span> NARAYANA E-TECHNO HIGH SCHOOL</div>
-        <div><span class="check">✓</span> JOHN XXIII CBSE HIGH SCHOOL</div>
-        <div><span class="check">✓</span> JOHN BOSCO HIGH SCHOOL</div>
-        <div><span class="check">✓</span> ST.ANN'S MILLENNIUM HIGH SCHOOL</div>
-        <div><span class="check">✓</span> Many other CBSE and SSC schools</div>
-      </div>
-      
-</section>
+    <!-- Founder Section -->
+    <!-- <section class="founder-section">
+        <div class="container founder-grid">
+            <div class="founder-img-container">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80" alt="Naresh Tayade" class="responsive-img editable-img">
+            </div>
+            <div class="founder-text">
+                <span class="section-subtitle">Leadership</span>
+                <h2>Naresh Tayade</h2>
+                <p class="founder-title">Founder & Choreographer</p>
+                <p>Founder of Urban Dance Studio with over 10 years of experience in dance training, choreography and event execution. Experienced in managing annual days, competitions, cultural festivals and large-scale performances.</p>
+            </div>
+        </div>
+    </section> -->
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_22.png">Target Segments</div><div class="page">07 / 15</div></div>
-  <div class="content">
-    <h2>Who We <span class="neon">Serve</span></h2>
-    <div class="grid3">
-      <div class="card"><div class="icon">🏫</div><h3>Schools</h3><p class="small">Annual Day, Sports Day, cultural functions, competitions and workshops.</p></div>
-      <div class="card"><div class="icon">🎓</div><h3>Colleges</h3><p class="small">Fest choreography, group performances, flash mobs and stage acts.</p></div>
-      <div class="card"><div class="icon">🏢</div><h3>Corporate Events</h3><p class="small">Team performances, event choreography and entertainment planning.</p></div>
-      <div class="card"><div class="icon">💍</div><h3>Wedding / Sangeet</h3><p class="small">Family choreography, bride-groom entries and full sangeet planning.</p></div>
-      <div class="card"><div class="icon">🎬</div><h3>Stage Shows</h3><p class="small">Concept, rehearsal, costume guidance and final performance execution.</p></div>
-      <div class="card"><div class="icon">📱</div><h3>Social Media</h3><p class="small">Dance content planning, shoot support and short-form video handling.</p></div>
-    </div>
-  </div>
-</section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Gallery & Portfolio</h2>
+                <p>Premium portfolio of our standard events production.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item"><img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=500&q=80" alt="School Events"><span>School Events</span></div>
+                <div class="portfolio-item"><img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=500&q=80" alt="Annual Day"><span>Annual Day</span></div>
+                <div class="portfolio-item"><img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=500&q=80" alt="Corporate"><span>Corporate Events</span></div>
+                <div class="portfolio-item"><img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=500&q=80" alt="Weddings"><span>Wedding Events</span></div>
+                <div class="portfolio-item"><img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=500&q=80" alt="Workshops"><span>Dance Workshops</span></div>
+                <div class="portfolio-item"><img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=500&q=80" alt="Shows"><span>Stage Shows</span></div>
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_23.png">Services</div><div class="page">08 / 15</div></div>
-  <div class="content">
-    <h2>Services We <span class="neon">Provide</span></h2>
-    <p class="lead">Choose a complete package or select only the service you need.</p>
-    <div class="service-grid">
-      <div class="service"><strong>Dance Teachers</strong><span>Professional teachers for schools and institutions.</span></div>
-      <div class="service"><strong>Annual Day Choreography</strong><span>Class-wise, theme-wise and group performance planning.</span></div>
-      <div class="service"><strong>Festival Choreography</strong><span>Cultural, traditional and modern stage concepts.</span></div>
-      <div class="service"><strong>Full Event Management</strong><span>Planning, coordination and stage execution support.</span></div>
-      <div class="service"><strong>Videographer</strong><span>Event coverage and performance shoot support.</span></div>
-      <div class="service"><strong>Video Editing</strong><span>Final event videos, reels and highlight edits.</span></div>
-      <div class="service"><strong>Music Editing</strong><span>Clean cuts, medleys and performance mixes.</span></div>
-      <div class="service"><strong>Costume Guidance</strong><span>Costume planning and arrangement support for events.</span></div>
-      <div class="service"><strong>Stage Planning</strong><span>Entries, formations, spacing and stage movement.</span></div>
-      <div class="service"><strong>Dance Workshops</strong><span>Short-term and certified training programs.</span></div>
-      <div class="service"><strong>Social Media Handler</strong><span>Event reels, posts and content coordination.</span></div>
-      <div class="service"><strong>Custom Requirement</strong><span>Flexible solution based on your event needs.</span></div>
-    </div>
-  </div>
-</section>
+    <!-- Clients Section -->
+    <section class="clients-section">
+        <div class="container">
+            <div class="section-header"><h2>Trusted Institutions</h2></div>
+            <div class="clients-logos">
+                <div class="client-box">Narayana E-Techno High School</div>
+                <div class="client-box">John XXIII CBSE High School</div>
+                <div class="client-box">John Bosco High School</div>
+                <div class="client-box">St. Ann's Millennium High School</div>
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_24.png">Dance Styles</div><div class="page">09 / 15</div></div>
-  <div class="content grid2">
-    <div>
-      <h2>Dance Styles <span class="neon">We Teach</span></h2>
-      <div class="service-grid" style="grid-template-columns: repeat(2, 1fr);">
-        <div class="service"><strong>Hip Hop</strong><span>Energy, groove and stage attitude.</span></div>
-        <div class="service"><strong>Bollywood</strong><span>Expression, performance and entertainment.</span></div>
-        <div class="service"><strong>Zumba</strong><span>Fitness-based dance sessions.</span></div>
-        <div class="service"><strong>Freestyle</strong><span>Creative movement and confidence.</span></div>
-        <div class="service"><strong>Contemporary</strong><span>Flow, expression and storytelling.</span></div>
-        <div class="service"><strong>Jazz Funk</strong><span>Sharp moves and modern style.</span></div>
-        <div class="service"><strong>Classical</strong><span>Traditional performance training.</span></div>
-        <div class="service"><strong>Bharat Natyam</strong><span>Grace, posture and cultural foundation.</span></div>
-      </div>
-    </div>
-    <img class="photo tall" src="images/image_25.jpg" alt="Traditional performance team">
-  </div>
-</section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header"><h2>Client Reviews</h2></div>
+            <div class="testimonials-grid">
+                <div class="test-card"><p>"Urban Events made our School Annual Day dynamic and memorable. Seamless discipline throughout."</p><h5>- School Director</h5></div>
+                <div class="test-card"><p>"The wedding Sangeet choreography was professional and extremely easy for family to learn!"</p><h5>- Sangeet Client</h5></div>
+                <div class="test-card"><p>"Flawless execution of our corporate product launch. The light and sound coordination was world-class."</p><h5>- Corporate HR</h5></div>
+                <div class="test-card"><p>"Managed our complete college festival with 5000+ students crowd brilliantly. Highly reliable team."</p><h5>- Student Council</h5></div>
+                <div class="test-card"><p>"Stunning video edits and drone coverage. Every detail was captured with precision."</p><h5>- Festival Organizer</h5></div>
+                <div class="test-card"><p>"Naresh Sir's team handled our stage setup, technical LED panels, and hosts brilliantly."</p><h5>- Institutional Client</h5></div>
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_26.png">Packages</div><div class="page">10 / 15</div></div>
-  <div class="content">
-    <h2>Flexible <span class="neon">Packages</span></h2>
-    <p class="lead">Final pricing and scope can be customized after understanding the event size, number of students and requirements.</p>
-    <div class="price-table">
-      <div class="package">
-        <h3>Individual Service</h3>
-        <p class="small">For clients who need only one specific service.</p>
-        <ul>
-          <li>Dance teacher</li>
-          <li>Choreography only</li>
-          <li>Videographer only</li>
-          <li>Video editing only</li>
-          <li>Social media handling</li>
-        </ul>
-      </div>
-      <div class="package featured">
-        <h3>School Event Package</h3>
-        <p class="small">Best for annual days and cultural programs.</p>
-        <ul>
-          <li>Theme and performance planning</li>
-          <li>Choreography and rehearsals</li>
-          <li>Music editing</li>
-          <li>Costume guidance</li>
-          <li>Stage execution support</li>
-        </ul>
-      </div>
-      <div class="package">
-        <h3>Complete Event Solution</h3>
-        <p class="small">For full management and premium execution.</p>
-        <ul>
-          <li>Choreography + event planning</li>
-          <li>Videography and editing</li>
-          <li>Stage performance planning</li>
-          <li>Social media content</li>
-          <li>End-to-end coordination</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header"><h2>Frequently Asked Questions</h2></div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">How many days prior do we need to book? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer">For school annual days and grand corporate productions, we recommend connecting 4-6 weeks in advance.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer customized choreography scripts? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer">Yes, all our choreography scripts and music mixes are custom edited by our team according to your event theme.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Do you provide services outside Nalasopara? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer">Yes, we provide premium event production and choreography services throughout Mumbai and Maharashtra.</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_27.png">Work Process</div><div class="page">11 / 15</div></div>
-  <div class="content">
-    <h2>Our Work <span class="neon">Process</span></h2>
-    <div class="process">
-      <div class="step"><b>01</b><h3>Understand</h3><p class="small">We understand event goals, audience and school requirements.</p></div>
-      <div class="step"><b>02</b><h3>Plan</h3><p class="small">We plan theme, choreography, music and performance flow.</p></div>
-      <div class="step"><b>03</b><h3>Train</h3><p class="small">We conduct practice sessions with discipline and clarity.</p></div>
-      <div class="step"><b>04</b><h3>Prepare</h3><p class="small">We finalize costumes, music edits, formations and stage movement.</p></div>
-      <div class="step"><b>05</b><h3>Execute</h3><p class="small">We support final-day performance execution smoothly.</p></div>
-    </div>
-  </div>
-</section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Request a custom quote or proposal for your upcoming event.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Urban Events Company</h3>
+                    <p style="color:#C8A45D; font-size:0.85rem; letter-spacing:2px; margin-bottom:30px;">Presented by Urban Dance Studio</p>
+                    
+                    <div class="info-item"><i class="fa-solid fa-user"></i><div><label>Founder</label><p>Naresh Tayade</p></div></div>
+                    <div class="info-item"><i class="fa-solid fa-phone"></i><div><label>Phone</label><p>7498325284</p></div></div>
+                    <div class="info-item"><i class="fa-solid fa-envelope"></i><div><label>Email</label><p>urbandancestudio4@gmail.com</p></div></div>
+                    <div class="info-item"><i class="fa-solid fa-location-dot"></i><div><label>Location</label><p>Nalasopara East, Maharashtra, India</p></div></div>
+                    
+                    <a href="https://wa.me/917498325284" target="_blank" class="btn btn-whatsapp" style="margin-top:20px; width:100%;"><i class="fa-brands fa-whatsapp"></i> Chat Live on WhatsApp</a>
+                </div>
+                <div class="contact-form-container">
+                    <form id="proposalForm" onsubmit="event.preventDefault(); alert('Thank you! Our team will contact you shortly with a customized proposal.');">
+                        <input type="text" placeholder="Your Name" required class="form-control">
+                        <input type="email" placeholder="Email Address" required class="form-control">
+                        <input type="tel" placeholder="Phone Number" required class="form-control">
+                        <select class="form-control" required>
+                            <option value="" disabled selected>Select Event Type</option>
+                            <option>School Annual Day</option>
+                            <option>College Festival</option>
+                            <option>Corporate Event</option>
+                            <option>Wedding/Sangeet Rehearsal</option>
+                        </select>
+                        <textarea placeholder="Tell us more about your event parameters, dates, and budget requirements..." rows="5" class="form-control" required></textarea>
+                        <button type="submit" class="btn btn-gold btn-block">Send Proposal Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_28.png">Why Choose Us</div><div class="page">12 / 15</div></div>
-  <div class="content grid2">
-    <img class="photo" src="images/image_29.jpg" alt="Workshop certificates">
-    <div>
-      <h2>Why Choose <span class="neon">Urban Events Company</span></h2>
-      <div class="list">
-        <div><span class="check">✓</span> Experienced team with practical school-event knowledge.</div>
-        <div><span class="check">✓</span> Complete support from training to final performance.</div>
-        <div><span class="check">✓</span> Creative concepts suitable for school, college, corporate and wedding audiences.</div>
-        <div><span class="check">✓</span> Flexible packages for small and large events.</div>
-        <div><span class="check">✓</span> Professional Choreography.</div>
-        <div><span class="check">✓</span> Reliable execution with professional coordination.</div>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Urban Events Company. Presented by Urban Dance Studio. Developed with Premium Standards.</p>
+        </div>
+    </footer>
 
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_30.png">Event Moments</div><div class="page">13 / 15</div></div>
-  <div class="content">
-    <h2>Performance <span class="neon">Gallery</span></h2>
-    <div class="gallery">
-      <img class="big" src="images/image_31.jpg" alt="Dance group selfie">
-      <img src="images/image_32.jpg" alt="Award ceremony">
-      <img src="images/image_33.jpg" alt="School performance">
-      <img src="images/image_34.jpg" alt="Stage award">
-      <img src="images/image_35.jpg" alt="Backstage event">
-    </div>
-  </div>
-</section>
-
-<section class="slide">
-  <div class="topbar"><div class="brandmark"><img src="images/image_36.png">Contact</div><div class="page">14 / 15</div></div>
-  <img class="watermark" src="images/image_37.png">
-  <div class="content grid2">
-    <div>
-      <h2>Contact <span class="neon">Information</span></h2>
-      <div class="contact-box">
-        <div class="contact-row"><b>Brand</b> Urban Events Company</div>
-        <div class="contact-row"><b>By</b> Urban Dance Studio</div>
-        <div class="contact-row"><b>Address</b> Galanagar Circle, Achole Road, Nalasopara East, Maharashtra 401209</div>
-        <div class="contact-row"><b>Phone</b> 7498325284</div>
-        <div class="contact-row"><b>Email</b> urbandancestudio4@gmail.com</div>
-        <div class="contact-row"><b>Website</b> urbandancestudio.fun</div>
-      </div>
-<p style="font-size: 22px; line-height: 1.8; font-weight: 500; color: #ffffff;">
-  Along with a well-managed event, we also help schools with social media promotion & visibility through Instagram, WhatsApp, and Facebook, helping improve reach and attract more admissions.
-</p></section>
-
-<section class="slide cover">
-  <img class="cover-bg" src="images/image_39.jpg" alt="closing background">
-  <div class="topbar"><div class="brandmark"><img src="images/image_40.png">Urban Dance Studio</div><div class="page">15 / 15</div></div>
-  <div class="content">
-    <img class="logo-large" src="images/image_41.png" alt="Logo">
-    <h1>Thank <span class="neon">You</span></h1>
-    <p class="sub">Let’s create unforgettable stage experiences together.</p>
-    <div class="pills">
-      <span class="pill hot">7498325284</span>
-      <span class="pill">urbandancestudio4@gmail.com</span>
-      <span class="pill">Nalasopara East,401 209, Mumbai, Maharashtra</span>
-    </div>
-  </div>
-</section>
-
-</main>
-
+    <script src="script.js"></script>
 </body>
 </html>
