@@ -666,6 +666,9 @@ h1, h2, h3, h4 {
 
 .logo { display: inline-flex; align-items: center; text-decoration: none; }
 .logo-image { display: block; width: 112px; height: 52px; object-fit: contain; }
+.logo-wordmark { color: var(--white); display: inline-flex; flex-wrap: wrap; align-items: baseline; font-family: var(--font-head); font-size: 0.9rem; font-weight: 700; letter-spacing: 1px; line-height: 1.1; margin-left: 12px; max-width: 130px; text-transform: uppercase; }
+.logo-wordmark .wordmark-gold { color: var(--gold); margin-left: 3px; }
+.logo-wordmark small { color: var(--white); flex-basis: 100%; font-family: var(--font-body); font-size: 0.48rem; font-weight: 500; letter-spacing: 2.6px; margin-top: 3px; opacity: 0.88; }
 .nav-links { display: flex; list-style: none; gap: 30px; align-items: center; }
 .nav-links a { color: var(--white); text-decoration: none; font-size: 0.85rem; text-transform: uppercase; transition: 0.3s; opacity: 0.8; }
 .nav-links a:hover { color: var(--gold); opacity: 1; }
@@ -768,8 +771,11 @@ h1, h2, h3, h4 {
     .nav-links { position: absolute; top: 100%; left: 0; width: 100%; background: var(--bg-black); flex-direction: column; padding: 30px; gap: 20px; display: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
     .nav-links.nav-active { display: flex; }
     .hero h1 { font-size: 2.2rem; }
-    .logo-image { width: 92px; height: 44px; }
+    .logo-image { width: 82px; height: 42px; }
+    .logo-wordmark { font-size: 0.68rem; letter-spacing: 0.7px; margin-left: 8px; max-width: 98px; }
+    .logo-wordmark small { font-size: 0.4rem; letter-spacing: 1.9px; margin-top: 2px; }
     .about-grid, .founder-grid, .contact-grid { grid-template-columns: 1fr; }
     .stats-grid { grid-template-columns: repeat(2, 1fr); }
     .services-grid, .categories-grid, .portfolio-grid, .clients-logos, .testimonials-grid { grid-template-columns: 1fr; }
 }
+
